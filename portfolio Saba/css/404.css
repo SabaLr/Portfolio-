@@ -1,0 +1,81 @@
+html,
+body {
+    background-color: #2a2a39;
+}
+
+h1 {
+    text-align: center;
+    color: #32C2EE;
+    font-size: 10rem;
+    margin-bottom: 2px;
+}
+
+.poopy-browser {
+    width: 45%;
+    min-height: 150px;
+    height: 40%;
+    border: 3px solid #32C2EE;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 25%;
+    position: relative;
+    margin-top: 4%;
+    overflow: hidden;
+}
+
+.close,
+.minimize,
+.maximize {
+    border-radius: 50%;
+    border: 3px solid #32C2EE;
+    width: 5px;
+    height: 5px;
+    float: left;
+    margin-right: 3%;
+}
+
+.address-bar {
+    width: 108%;
+    margin-left: -4%;
+    border-top: 3px solid #32C2EE;
+    margin-top: 20px;
+}
+
+.x {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #32C2EE;
+    top: 55%;
+    margin-left: -30px;
+    left: 50%;
+    margin-top: -30px;
+    position: absolute;
+}
+
+.x:before,
+.x:after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    margin-top: -1.5px;
+    left: 50%;
+    margin-left: -20px;
+    background-color: #32C2EE;
+    content: '';
+    display: block;
+}
+
+.x:after {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
